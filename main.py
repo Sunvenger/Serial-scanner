@@ -16,7 +16,6 @@ def single_port_is_available(port_name):
         s.close()
 
 
-
 if __name__ == '__main__':
     while True:
         p = Pool(processes=4)
